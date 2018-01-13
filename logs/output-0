@@ -1,0 +1,3 @@
+Include files: 0*.mov
+./copy-s3-object.sh: line 25:  3439 Killed: 9               aws s3 cp --exclude "*" --include $include --content-type "video/mp4" --metadata-directive REPLACE --acl public-read --sse AES256 --profile $1 --recursive --dryrun $bucket $bucket
+Finished
